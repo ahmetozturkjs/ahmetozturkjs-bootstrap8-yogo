@@ -1,0 +1,94 @@
+a{
+    text-decoration: none;
+}
+
+
+/* ----nav section ----*/
+
+#navbarSupportedContent a{
+    color: whitesmoke;
+    margin: 0 1rem;
+}
+
+#navbarSupportedContent a:hover{
+    font-size: large;
+    
+}
+.active{
+    font-size: large;
+    border-bottom: solid 2px ;
+}
+#section-1 .row .a1:hover{
+    background-color: var(--arkaplan)!important;
+    color: whitesmoke!important;
+}
+.footer .a2:hover{
+    background-color: whitesmoke!important;
+    color:rgb(111,22,216)!important ; 
+    border-color:rgb(var(--arkaplan))!important ;
+}
+#section-1 .row .a2:hover{
+    background-color: whitesmoke!important;
+    color:rgb(111,22,216)!important ;
+}
+#watch:hover{
+    background-color: whitesmoke!important;
+    color:rgb(111,22,216)!important ; 
+    border-color:rgb(var(--arkaplan))!important ;
+}
+#section-2 .card, .row .a1,.a2{
+    transition: all 1s;
+}
+#section-2 .card:hover{
+    background-color:rgb(111,22,216);
+    cursor: pointer;
+    color: whitesmoke;
+}
+#section-2 .card:hover i{
+    color: whitesmoke;
+}
+#section-6 .img{
+    transition: all 0.5s;
+}
+
+.footer span{    
+    height: 1px;
+    width: 70%;
+    display: inline-block;
+    border-top: solid whitesmoke 1px;
+    padding-top: -10px;
+    
+}
+::placeholder{
+    color: whitesmoke;
+}
+
+.fa-bars{
+    color: whitesmoke;
+    
+}
+
+
+
+
+
+
+
+@media (max-width: 576px) { 
+    .p{
+        width: 20rem!important;
+       
+    }
+}
+.carousel-indicators button{
+    background-color:rgb(var(--arkaplan))!important;
+}
+.carousel-control-prev-icon{
+   background-color:rgb(var(--arkaplan))!important;
+}
+.carousel-control-next-icon{
+    background-color:rgb(var(--arkaplan))!important;
+ }
+ .testimonial{
+    transform: translateY(50px);
+}
